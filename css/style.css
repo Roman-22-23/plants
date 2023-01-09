@@ -350,7 +350,8 @@ h2#service {
 
 .div-service-img {
   max-width: 329px;
-  max-height: 350px;
+  max-height: 349px;
+  vertical-align: bottom;
 }
 
 img {
@@ -508,7 +509,7 @@ h2#prices {
 }
 
 /* contacts */
-.contact-us {
+.contacts {
   height: 550px;
   top: 3190px;
   background-color: #EDF2EC;
@@ -532,7 +533,7 @@ h2#prices {
   margin-left: 113px;
 }
 
-h2#contact-us {
+h2#contacts {
   font-family: Inika;
   font-size: 40px;
   font-weight: 700;
@@ -565,6 +566,10 @@ h2#contact-us {
   padding-left: 20px;
 }
 
+select:focus, option:focus {
+  outline: none;
+}
+
 option {
   background-color: #D6E7D2; 
   padding-left: 20px;
@@ -578,7 +583,6 @@ option {
 }
 
 .div-footer {
-  height: 130px;
   justify-content: center;
   align-items: center;
 }
@@ -625,6 +629,14 @@ a {
   margin-left: 20px;
   margin-top: 8px;
   cursor: pointer;
+}
+
+.year:after {
+  content:'2022';
+}
+
+.year:hover:after {
+  content:'2023';
 }
 
 .inst-logo a {
