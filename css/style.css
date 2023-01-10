@@ -711,47 +711,47 @@ a {
 .inst-logo a {
   content: url(../img/svg/logo_inst.svg);
   transform: scale(1);
-  transition: background-color 0.8s linear;
+  transition: all 0.4s linear;
 }
 
 .inst-logo a:hover {
   content: url(../img/svg/logo_inst_hover.svg);
   transform: scale(1.2);
-  transition: background-color 0.8s linear;
+  transition: all 0.8s linear;
 }
 
 .fb-logo a {
   content: url(../img/svg/logo_fb.svg);
   transform: scale(1);
-  transition: background-color 0.8s linear;
+  transition: all 0.4s linear;
 }
 
 .fb-logo a:hover {
   content: url(../img/svg/logo_fb_hover.svg);
   transform: scale(1.2);
-  transition: background-color 0.8s linear;
+  transition: all 0.8s linear;
 }
 
 .tw-logo a {
   content: url(../img/svg/logo_tw.svg);
   transform: scale(1);
-  transition: background-color 0.8s linear;
+  transition: all 0.4s linear;
 }
 
 .tw-logo a:hover {
   content: url(../img/svg/logo_tw_hover.svg);
   transform: scale(1.2);
-  transition: background-color 0.8s linear;
+  transition: all 0.8s linear;
 }
 
 .pinterest-logo a {
   content: url(../img/svg/logo_pinterest.svg);
   transform: scale(1);
-  transition: background-color 0.8s linear;
+  transition: all 0.4s linear;
 }
 
 .pinterest-logo a:hover {
   content: url(../img/svg/logo_pinterest_hover.svg);
   transform: scale(1.2);
-  transition: background-color 0.8s linear;
+  transition: all 0.8s linear;
 }
